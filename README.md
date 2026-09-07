@@ -23,13 +23,13 @@ The website files are stored in an Amazon S3 bucket and delivered securely to us
 - Git
 - GitHub
 
-## 🔐 Cloud & Security
+## 🔐 Cloud Configuration
 
-- Configured an Amazon S3 bucket to store the static website files.
-- Kept the S3 origin private rather than exposing the bucket directly.
+- Deployed static website files to Amazon S3.
+- Configured a private S3 origin.
 - Configured Amazon CloudFront to deliver the website over HTTPS.
-- Worked with AWS permissions and IAM while configuring the deployment.
 - Used Git and GitHub for source-code management.
+- Tested and troubleshot the deployment to ensure the website was accessible through CloudFront.
 
 ## 📸 Deployment Evidence
 
@@ -41,7 +41,7 @@ The website files deployed to my Amazon S3 bucket.
 
 ### Amazon CloudFront
 
-CloudFront distribution used to securely deliver the website.
+CloudFront distribution used to deliver the website.
 
 ![Amazon CloudFront Distribution](screenshots/cloudfront-distribution.png)
 
@@ -53,6 +53,8 @@ The completed portfolio running through the CloudFront distribution.
 
 ## 📚 What I Learned
 
-Through this project I gained hands-on experience with AWS cloud services, including deploying static web content, configuring S3 and CloudFront, managing cloud permissions and troubleshooting deployment issues.
+Through this project, I gained hands-on experience deploying a static website using AWS.
 
-This project helped me understand how cloud storage and content delivery services can work together to deploy a secure and accessible web application.
+I learned how Amazon S3 can be used to store website files and how Amazon CloudFront can securely distribute that content over HTTPS.
+
+The project also gave me practical experience with cloud deployment, troubleshooting, Git and GitHub.
